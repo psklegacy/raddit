@@ -10,5 +10,10 @@
 
 <%= yield %>
 
+<!-- agregado debido ala gema de usuarios DEVISE-->
+<% flash.each do |name, msg| %>
+<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+<% end %>
+
 </body>
 </html>
