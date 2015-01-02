@@ -26,6 +26,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 ###Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.4.1'
 
+###Structure and styling
+gem 'bootstrap-sass', '~> 3.2.0.2'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
